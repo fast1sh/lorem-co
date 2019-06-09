@@ -1,0 +1,66 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* containers */
+.container {
+  max-width: 1297px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container_small {
+  max-width: 1036px;
+}
+
+.container_one-comment {
+  max-width: 795px;
+}
+
+/* global */
+.title {
+  color: #111518;
+  font-family: "Sofia Pro Semibold";
+  font-size: 70px;
+}
+
+.button {
+  padding: 22px 57px;
+  border-radius: 3px;
+  background-color: #60e3a1;
+  color: #1d1e25;
+  font-family: "Sofia Pro Semibold";
+  font-size: 16px;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: #8cffc8;
+}
+
+@media (max-width: 864px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 560px) {
+  .title {
+    font-size: 40px;
+  }
+}
